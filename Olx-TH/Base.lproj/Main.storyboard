@@ -124,10 +124,10 @@
             </objects>
             <point key="canvasLocation" x="213" y="320"/>
         </scene>
-        <!--View Controller-->
+        <!--Submit Ad View Controller-->
         <scene sceneID="F8p-69-XCj">
             <objects>
-                <viewController storyboardIdentifier="SecondControllerId" id="MDB-3R-9kZ" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="SecondControllerId" id="MDB-3R-9kZ" customClass="SubmitAdViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="sGl-ZG-u2r">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -177,6 +177,9 @@
                                                 <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits"/>
+                                                <connections>
+                                                    <outlet property="delegate" destination="MDB-3R-9kZ" id="hK0-AW-DUP"/>
+                                                </connections>
                                             </textField>
                                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Location" minimumFontSize="17" id="hck-1t-9XT">
                                                 <rect key="frame" x="8" y="52" width="288" height="30"/>
@@ -184,6 +187,9 @@
                                                 <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits"/>
+                                                <connections>
+                                                    <outlet property="delegate" destination="MDB-3R-9kZ" id="b4D-ms-voV"/>
+                                                </connections>
                                             </textField>
                                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Email" minimumFontSize="17" id="xyI-Ni-516">
                                                 <rect key="frame" x="8" y="90" width="288" height="30"/>
@@ -191,6 +197,9 @@
                                                 <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits"/>
+                                                <connections>
+                                                    <outlet property="delegate" destination="MDB-3R-9kZ" id="iQq-ao-DlS"/>
+                                                </connections>
                                             </textField>
                                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Phone" minimumFontSize="17" id="SLR-r1-l9x">
                                                 <rect key="frame" x="8" y="128" width="288" height="30"/>
@@ -198,6 +207,9 @@
                                                 <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits"/>
+                                                <connections>
+                                                    <outlet property="delegate" destination="MDB-3R-9kZ" id="Meo-SP-bug"/>
+                                                </connections>
                                             </textField>
                                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Title" minimumFontSize="17" id="ofr-tK-OvW">
                                                 <rect key="frame" x="8" y="166" width="288" height="30"/>
@@ -205,6 +217,9 @@
                                                 <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits"/>
+                                                <connections>
+                                                    <outlet property="delegate" destination="MDB-3R-9kZ" id="X1W-Vn-yhg"/>
+                                                </connections>
                                             </textField>
                                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Description (min 20 characters)" id="Ena-EM-fzv">
                                                 <rect key="frame" x="8" y="204" width="288" height="60"/>
@@ -212,6 +227,9 @@
                                                 <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                                <connections>
+                                                    <outlet property="delegate" destination="MDB-3R-9kZ" id="gzu-Gs-PLr"/>
+                                                </connections>
                                             </textView>
                                         </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -224,6 +242,9 @@
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
+                                        <connections>
+                                            <action selector="submitAd:" destination="MDB-3R-9kZ" eventType="touchUpInside" id="kOd-GN-E09"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </scrollView>
@@ -231,6 +252,14 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="2YW-7q-z9e"/>
+                    <connections>
+                        <outlet property="textField_Name" destination="1Yn-Nu-Ueu" id="gsw-P8-7fq"/>
+                        <outlet property="textField_email" destination="xyI-Ni-516" id="03X-LG-xnJ"/>
+                        <outlet property="textField_location" destination="hck-1t-9XT" id="hs1-e2-4Zj"/>
+                        <outlet property="textField_phone" destination="SLR-r1-l9x" id="7vZ-V2-ILl"/>
+                        <outlet property="textField_title" destination="ofr-tK-OvW" id="1JE-xT-3A1"/>
+                        <outlet property="textView_description" destination="Ena-EM-fzv" id="hai-7Z-0tr"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="db7-aw-nUB" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

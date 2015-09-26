@@ -78,7 +78,15 @@
     
     [binaryImageData writeToFile:[basePath stringByAppendingPathComponent:@"Ad.png"] atomically:YES];
     
+    
     [self.navigationController popViewControllerAnimated:YES ];
+}
+-(void)showAlert:(NSString*)message
+{
+    UIAlertView *errorAlert = [[UIAlertView alloc]
+                               initWithTitle:@"Error" message:message delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil];
+    [errorAlert show];
+    
 }
 
 @end

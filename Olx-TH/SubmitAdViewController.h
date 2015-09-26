@@ -15,6 +15,8 @@
         IBOutlet UITextField* textField_phone;
         IBOutlet UITextField* textField_location;
         IBOutlet UITextView* textView_description;
+    IBOutlet UITextField* textField_title;
+
 }
 
 @end

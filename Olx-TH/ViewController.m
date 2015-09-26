@@ -23,6 +23,21 @@
     locationManager = [[CLLocationManager alloc] init];
 
     [self getCurrentLocation];
+    
+    //retrieving
+    NSUserDefaults *retr_prefs = [NSUserDefaults standardUserDefaults];
+    
+    // getting an NSString
+    NSString *Name = [retr_prefs stringForKey:@"Name"];
+    NSLog(@"Name Saved %@",Name);
+
+    if ([Name length] != 0 ) {
+        UIStoryboard *sb = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
+        
+        UIViewController *vc = [sb instantiateViewControllerWithIdentifier:@"firstControllerId"];
+        [self.navigationController pushViewController:vc animated:YES];
+
+    }
 }
 
 - (void)didReceiveMemoryWarning {
@@ -44,12 +59,6 @@
         [prefs setObject:textFieled_Location.text forKey:@"Location"];
         
         
-        //retrieving
-        NSUserDefaults *retr_prefs = [NSUserDefaults standardUserDefaults];
-        
-        // getting an NSString
-        NSString *Name = [retr_prefs stringForKey:@"Name"];
-        NSLog(@"Name Saved %@",Name);
         
         
         
