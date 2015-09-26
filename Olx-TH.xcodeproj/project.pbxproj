@@ -1,0 +1,517 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FE3A04DE1BB67DED005EB613 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FE3A04DD1BB67DED005EB613 /* main.m */; };
+		FE3A04E11BB67DED005EB613 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FE3A04E01BB67DED005EB613 /* AppDelegate.m */; };
+		FE3A04E41BB67DED005EB613 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE3A04E31BB67DED005EB613 /* ViewController.m */; };
+		FE3A04E71BB67DED005EB613 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE3A04E51BB67DED005EB613 /* Main.storyboard */; };
+		FE3A04E91BB67DED005EB613 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE3A04E81BB67DED005EB613 /* Images.xcassets */; };
+		FE3A04EC1BB67DED005EB613 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FE3A04EA1BB67DED005EB613 /* LaunchScreen.xib */; };
+		FE3A04F81BB67DED005EB613 /* Olx_THTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FE3A04F71BB67DED005EB613 /* Olx_THTests.m */; };
+		FE3A05091BB68580005EB613 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE3A05081BB68580005EB613 /* QuartzCore.framework */; };
+		FE3A050B1BB6858B005EB613 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE3A050A1BB6858B005EB613 /* CoreGraphics.framework */; };
+		FE3A050D1BB68598005EB613 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE3A050C1BB68598005EB613 /* Foundation.framework */; };
+		FE3A050F1BB685A0005EB613 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE3A050E1BB685A0005EB613 /* UIKit.framework */; };
+		FE3A05121BB685CF005EB613 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE3A05111BB685CF005EB613 /* HomeViewController.m */; };
+		FE3A05181BB6888B005EB613 /* IGLDropDownItem.m in Sources */ = {isa = PBXBuildFile; fileRef = FE3A05151BB6888B005EB613 /* IGLDropDownItem.m */; };
+		FE3A05191BB6888B005EB613 /* IGLDropDownMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = FE3A05171BB6888B005EB613 /* IGLDropDownMenu.m */; };
+		FE3A051B1BB695D4005EB613 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE3A051A1BB695D4005EB613 /* CoreLocation.framework */; };
+		FE3A051E1BB69E5A005EB613 /* SubmitAdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE3A051D1BB69E5A005EB613 /* SubmitAdViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FE3A04F21BB67DED005EB613 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FE3A04D01BB67DED005EB613 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FE3A04D71BB67DED005EB613;
+			remoteInfo = "Olx-TH";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FE3A04D81BB67DED005EB613 /* Olx-TH.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Olx-TH.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE3A04DC1BB67DED005EB613 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE3A04DD1BB67DED005EB613 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FE3A04DF1BB67DED005EB613 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FE3A04E01BB67DED005EB613 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FE3A04E21BB67DED005EB613 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FE3A04E31BB67DED005EB613 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FE3A04E61BB67DED005EB613 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FE3A04E81BB67DED005EB613 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FE3A04EB1BB67DED005EB613 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		FE3A04F11BB67DED005EB613 /* Olx-THTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Olx-THTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE3A04F61BB67DED005EB613 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE3A04F71BB67DED005EB613 /* Olx_THTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Olx_THTests.m; sourceTree = "<group>"; };
+		FE3A05081BB68580005EB613 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		FE3A050A1BB6858B005EB613 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FE3A050C1BB68598005EB613 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FE3A050E1BB685A0005EB613 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FE3A05101BB685CF005EB613 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		FE3A05111BB685CF005EB613 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		FE3A05141BB6888B005EB613 /* IGLDropDownItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IGLDropDownItem.h; sourceTree = "<group>"; };
+		FE3A05151BB6888B005EB613 /* IGLDropDownItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IGLDropDownItem.m; sourceTree = "<group>"; };
+		FE3A05161BB6888B005EB613 /* IGLDropDownMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IGLDropDownMenu.h; sourceTree = "<group>"; };
+		FE3A05171BB6888B005EB613 /* IGLDropDownMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IGLDropDownMenu.m; sourceTree = "<group>"; };
+		FE3A051A1BB695D4005EB613 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		FE3A051C1BB69E5A005EB613 /* SubmitAdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubmitAdViewController.h; sourceTree = "<group>"; };
+		FE3A051D1BB69E5A005EB613 /* SubmitAdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubmitAdViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FE3A04D51BB67DED005EB613 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE3A051B1BB695D4005EB613 /* CoreLocation.framework in Frameworks */,
+				FE3A050F1BB685A0005EB613 /* UIKit.framework in Frameworks */,
+				FE3A050D1BB68598005EB613 /* Foundation.framework in Frameworks */,
+				FE3A050B1BB6858B005EB613 /* CoreGraphics.framework in Frameworks */,
+				FE3A05091BB68580005EB613 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE3A04EE1BB67DED005EB613 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FE3A04CF1BB67DED005EB613 = {
+			isa = PBXGroup;
+			children = (
+				FE3A05071BB6855F005EB613 /* Frameworks */,
+				FE3A04DA1BB67DED005EB613 /* Olx-TH */,
+				FE3A04F41BB67DED005EB613 /* Olx-THTests */,
+				FE3A04D91BB67DED005EB613 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FE3A04D91BB67DED005EB613 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FE3A04D81BB67DED005EB613 /* Olx-TH.app */,
+				FE3A04F11BB67DED005EB613 /* Olx-THTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FE3A04DA1BB67DED005EB613 /* Olx-TH */ = {
+			isa = PBXGroup;
+			children = (
+				FE3A04DF1BB67DED005EB613 /* AppDelegate.h */,
+				FE3A04E01BB67DED005EB613 /* AppDelegate.m */,
+				FE3A05051BB68520005EB613 /* Controllers */,
+				FE3A05011BB684EE005EB613 /* UI Components */,
+				FE3A04E81BB67DED005EB613 /* Images.xcassets */,
+				FE3A04EA1BB67DED005EB613 /* LaunchScreen.xib */,
+				FE3A04DB1BB67DED005EB613 /* Supporting Files */,
+			);
+			path = "Olx-TH";
+			sourceTree = "<group>";
+		};
+		FE3A04DB1BB67DED005EB613 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FE3A04DC1BB67DED005EB613 /* Info.plist */,
+				FE3A04DD1BB67DED005EB613 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FE3A04F41BB67DED005EB613 /* Olx-THTests */ = {
+			isa = PBXGroup;
+			children = (
+				FE3A04F71BB67DED005EB613 /* Olx_THTests.m */,
+				FE3A04F51BB67DED005EB613 /* Supporting Files */,
+			);
+			path = "Olx-THTests";
+			sourceTree = "<group>";
+		};
+		FE3A04F51BB67DED005EB613 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FE3A04F61BB67DED005EB613 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FE3A05011BB684EE005EB613 /* UI Components */ = {
+			isa = PBXGroup;
+			children = (
+				FE3A04E51BB67DED005EB613 /* Main.storyboard */,
+				FE3A05061BB68535005EB613 /* third party components */,
+			);
+			name = "UI Components";
+			sourceTree = "<group>";
+		};
+		FE3A05051BB68520005EB613 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				FE3A04E21BB67DED005EB613 /* ViewController.h */,
+				FE3A04E31BB67DED005EB613 /* ViewController.m */,
+				FE3A05101BB685CF005EB613 /* HomeViewController.h */,
+				FE3A05111BB685CF005EB613 /* HomeViewController.m */,
+				FE3A051C1BB69E5A005EB613 /* SubmitAdViewController.h */,
+				FE3A051D1BB69E5A005EB613 /* SubmitAdViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		FE3A05061BB68535005EB613 /* third party components */ = {
+			isa = PBXGroup;
+			children = (
+				FE3A05131BB6888B005EB613 /* IGLDropDownMenu */,
+			);
+			name = "third party components";
+			sourceTree = "<group>";
+		};
+		FE3A05071BB6855F005EB613 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FE3A051A1BB695D4005EB613 /* CoreLocation.framework */,
+				FE3A050E1BB685A0005EB613 /* UIKit.framework */,
+				FE3A050C1BB68598005EB613 /* Foundation.framework */,
+				FE3A050A1BB6858B005EB613 /* CoreGraphics.framework */,
+				FE3A05081BB68580005EB613 /* QuartzCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FE3A05131BB6888B005EB613 /* IGLDropDownMenu */ = {
+			isa = PBXGroup;
+			children = (
+				FE3A05141BB6888B005EB613 /* IGLDropDownItem.h */,
+				FE3A05151BB6888B005EB613 /* IGLDropDownItem.m */,
+				FE3A05161BB6888B005EB613 /* IGLDropDownMenu.h */,
+				FE3A05171BB6888B005EB613 /* IGLDropDownMenu.m */,
+			);
+			path = IGLDropDownMenu;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FE3A04D71BB67DED005EB613 /* Olx-TH */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE3A04FB1BB67DED005EB613 /* Build configuration list for PBXNativeTarget "Olx-TH" */;
+			buildPhases = (
+				FE3A04D41BB67DED005EB613 /* Sources */,
+				FE3A04D51BB67DED005EB613 /* Frameworks */,
+				FE3A04D61BB67DED005EB613 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Olx-TH";
+			productName = "Olx-TH";
+			productReference = FE3A04D81BB67DED005EB613 /* Olx-TH.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FE3A04F01BB67DED005EB613 /* Olx-THTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE3A04FE1BB67DED005EB613 /* Build configuration list for PBXNativeTarget "Olx-THTests" */;
+			buildPhases = (
+				FE3A04ED1BB67DED005EB613 /* Sources */,
+				FE3A04EE1BB67DED005EB613 /* Frameworks */,
+				FE3A04EF1BB67DED005EB613 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FE3A04F31BB67DED005EB613 /* PBXTargetDependency */,
+			);
+			name = "Olx-THTests";
+			productName = "Olx-THTests";
+			productReference = FE3A04F11BB67DED005EB613 /* Olx-THTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FE3A04D01BB67DED005EB613 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Ashish Singal";
+				TargetAttributes = {
+					FE3A04D71BB67DED005EB613 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					FE3A04F01BB67DED005EB613 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = FE3A04D71BB67DED005EB613;
+					};
+				};
+			};
+			buildConfigurationList = FE3A04D31BB67DED005EB613 /* Build configuration list for PBXProject "Olx-TH" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FE3A04CF1BB67DED005EB613;
+			productRefGroup = FE3A04D91BB67DED005EB613 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FE3A04D71BB67DED005EB613 /* Olx-TH */,
+				FE3A04F01BB67DED005EB613 /* Olx-THTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FE3A04D61BB67DED005EB613 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE3A04E71BB67DED005EB613 /* Main.storyboard in Resources */,
+				FE3A04EC1BB67DED005EB613 /* LaunchScreen.xib in Resources */,
+				FE3A04E91BB67DED005EB613 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE3A04EF1BB67DED005EB613 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FE3A04D41BB67DED005EB613 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE3A051E1BB69E5A005EB613 /* SubmitAdViewController.m in Sources */,
+				FE3A05191BB6888B005EB613 /* IGLDropDownMenu.m in Sources */,
+				FE3A04E41BB67DED005EB613 /* ViewController.m in Sources */,
+				FE3A05181BB6888B005EB613 /* IGLDropDownItem.m in Sources */,
+				FE3A04E11BB67DED005EB613 /* AppDelegate.m in Sources */,
+				FE3A05121BB685CF005EB613 /* HomeViewController.m in Sources */,
+				FE3A04DE1BB67DED005EB613 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE3A04ED1BB67DED005EB613 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE3A04F81BB67DED005EB613 /* Olx_THTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FE3A04F31BB67DED005EB613 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FE3A04D71BB67DED005EB613 /* Olx-TH */;
+			targetProxy = FE3A04F21BB67DED005EB613 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FE3A04E51BB67DED005EB613 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE3A04E61BB67DED005EB613 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FE3A04EA1BB67DED005EB613 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE3A04EB1BB67DED005EB613 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FE3A04F91BB67DED005EB613 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FE3A04FA1BB67DED005EB613 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FE3A04FC1BB67DED005EB613 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Olx-TH/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FE3A04FD1BB67DED005EB613 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Olx-TH/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FE3A04FF1BB67DED005EB613 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Olx-THTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Olx-TH.app/Olx-TH";
+			};
+			name = Debug;
+		};
+		FE3A05001BB67DED005EB613 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Olx-THTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Olx-TH.app/Olx-TH";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FE3A04D31BB67DED005EB613 /* Build configuration list for PBXProject "Olx-TH" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE3A04F91BB67DED005EB613 /* Debug */,
+				FE3A04FA1BB67DED005EB613 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE3A04FB1BB67DED005EB613 /* Build configuration list for PBXNativeTarget "Olx-TH" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE3A04FC1BB67DED005EB613 /* Debug */,
+				FE3A04FD1BB67DED005EB613 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FE3A04FE1BB67DED005EB613 /* Build configuration list for PBXNativeTarget "Olx-THTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE3A04FF1BB67DED005EB613 /* Debug */,
+				FE3A05001BB67DED005EB613 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FE3A04D01BB67DED005EB613 /* Project object */;
+}
