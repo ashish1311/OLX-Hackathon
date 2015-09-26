@@ -23,6 +23,7 @@
 		FE3A05191BB6888B005EB613 /* IGLDropDownMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = FE3A05171BB6888B005EB613 /* IGLDropDownMenu.m */; };
 		FE3A051B1BB695D4005EB613 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE3A051A1BB695D4005EB613 /* CoreLocation.framework */; };
 		FE3A051E1BB69E5A005EB613 /* SubmitAdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE3A051D1BB69E5A005EB613 /* SubmitAdViewController.m */; };
+		FEA6DCE61BB6B00900013EB9 /* ImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEA6DCE51BB6B00900013EB9 /* ImageViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +63,8 @@
 		FE3A051A1BB695D4005EB613 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		FE3A051C1BB69E5A005EB613 /* SubmitAdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubmitAdViewController.h; sourceTree = "<group>"; };
 		FE3A051D1BB69E5A005EB613 /* SubmitAdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubmitAdViewController.m; sourceTree = "<group>"; };
+		FEA6DCE41BB6B00900013EB9 /* ImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageViewController.h; sourceTree = "<group>"; };
+		FEA6DCE51BB6B00900013EB9 /* ImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -164,6 +167,8 @@
 				FE3A05111BB685CF005EB613 /* HomeViewController.m */,
 				FE3A051C1BB69E5A005EB613 /* SubmitAdViewController.h */,
 				FE3A051D1BB69E5A005EB613 /* SubmitAdViewController.m */,
+				FEA6DCE41BB6B00900013EB9 /* ImageViewController.h */,
+				FEA6DCE51BB6B00900013EB9 /* ImageViewController.m */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -301,6 +306,7 @@
 			files = (
 				FE3A051E1BB69E5A005EB613 /* SubmitAdViewController.m in Sources */,
 				FE3A05191BB6888B005EB613 /* IGLDropDownMenu.m in Sources */,
+				FEA6DCE61BB6B00900013EB9 /* ImageViewController.m in Sources */,
 				FE3A04E41BB67DED005EB613 /* ViewController.m in Sources */,
 				FE3A05181BB6888B005EB613 /* IGLDropDownItem.m in Sources */,
 				FE3A04E11BB67DED005EB613 /* AppDelegate.m in Sources */,
@@ -502,6 +508,7 @@
 				FE3A04FD1BB67DED005EB613 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FE3A04FE1BB67DED005EB613 /* Build configuration list for PBXNativeTarget "Olx-THTests" */ = {
 			isa = XCConfigurationList;
@@ -510,6 +517,7 @@
 				FE3A05001BB67DED005EB613 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
