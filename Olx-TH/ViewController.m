@@ -83,7 +83,14 @@
         if ([textFieled_email.text length] != 0) {
             if ([textFieled_Phone.text length] != 0) {
                 if ([textFieled_Location.text length] != 0) {
-                    return YES;
+                    
+                    
+                    if ([textFieled_Phone.text length] <10) {
+                        [self showAlert:@"Please enter 10 digit mobile number."];
+                        return NO;
+                    }
+                    else
+                        return YES;
                 }
                 else
                 {

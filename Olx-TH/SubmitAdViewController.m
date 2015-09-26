@@ -17,6 +17,34 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+    //retrieving
+    NSUserDefaults *retr_prefs = [NSUserDefaults standardUserDefaults];
+    
+    // getting an NSString
+    NSString *Name = [retr_prefs stringForKey:@"Name"];
+    NSLog(@"Name Saved %@",Name);
+    if ([Name length] != 0) {
+        textField_Name.text = Name;
+    }
+
+    // getting an NSString
+    NSString *Phone = [retr_prefs stringForKey:@"Phone"];
+    if ([Phone length] != 0) {
+        textField_phone.text = Phone;
+    }
+    
+    // getting an NSString
+    NSString *Email = [retr_prefs stringForKey:@"Email"];
+    if ([Email length] != 0) {
+        textField_email.text = Email;
+    }
+    // getting an NSString
+    NSString *Location = [retr_prefs stringForKey:@"Location"];
+    if ([Email length] != 0) {
+        textField_location.text = Location;
+    }
+
 }
 
 - (void)didReceiveMemoryWarning {
