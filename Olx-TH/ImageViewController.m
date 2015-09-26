@@ -70,6 +70,14 @@
 
 -(IBAction)dismissController:(id)sender
 {
+    NSArray * paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
+    NSString * basePath = ([paths count] > 0) ? [paths objectAtIndex:0] : nil;
+    
+    UIImage * imageToSave = [UIImage imageNamed:@"Ad.png"];
+    NSData * binaryImageData = UIImagePNGRepresentation(imageToSave);
+    
+    [binaryImageData writeToFile:[basePath stringByAppendingPathComponent:@"Ad.png"] atomically:YES];
+    
     [self.navigationController popViewControllerAnimated:YES ];
 }
 
